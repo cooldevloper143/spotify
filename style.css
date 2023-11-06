@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Mono&family=Varela+Round&display=swap");
+
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Nova Mono", monospace;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px ;
+}
+.brand{
+    align-items: center;
+    /* padding-bottom: 10px; */
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container{
+    min-height: 75vh;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black ;
+    bottom: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+#myprogressbar{
+    width: 80vw;
+    text-align: center;
+}
