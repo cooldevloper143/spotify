@@ -10,43 +10,80 @@ body {
 nav {
   font-family: "Nova Mono", monospace;
 }
-nav ul{
-    display: flex;
-    list-style-type: none;
-    height: 65px;
-    background-color: black;
-    color: white;
-    align-items: center;
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+  align-items: center;
 }
-.brand img{
-    width: 44px;
-    padding: 0 8px ;
+.brand img {
+  width: 44px;
+  padding: 0 8px;
 }
-.brand{
-    align-items: center;
-    /* padding-bottom: 10px; */
-    display: flex;
-    font-weight: bolder;
-    font-size: 1.3rem;
+.brand {
+  align-items: center;
+  /* padding-bottom: 10px; */
+  display: flex;
+  font-weight: bolder;
+  font-size: 1.3rem;
 }
 nav ul li {
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.container{
-    min-height: 75vh;
+.container {
+  min-height: 72vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round";
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url(/pngtree-pair-of-headphones-on-a-desk-beside-a-computer-picture-image_3170751.jpg);
 }
-.bottom{
-    position: sticky;
-    height: 130px;
-    background-color: black ;
-    bottom: 0;
-    display: flex; 
+
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+#myprogressbar {
+  width: 80vw;
+  text-align: center;
+  cursor: pointer;
+}
+.icons {
+  margin-top: 23px;
+  cursor: pointer;
+}
+.coverimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin-top: 12px;
     justify-content: center;
     align-items: center;
-
+    border-radius: 30px;
+    cursor: pointer;
 }
-#myprogressbar{
-    width: 80vw;
-    text-align: center;
+
+.songinfo{
+    position: relative;
 }
