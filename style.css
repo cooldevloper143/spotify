@@ -66,24 +66,24 @@ nav ul li {
   margin-top: 23px;
   cursor: pointer;
 }
-.coverimg{
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
+.coverimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
 }
-.songitem{
-    height: 50px;
-    display: flex;
-    background-color: white;
-    width: 80%;
-    color: black;
-    margin-top: 12px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    cursor: pointer;
+.songitem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 80%;
+  color: black;
+  margin-top: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
-.songinfo{
-    position: relative;
+.songinfo {
+  position: relative;
 }
